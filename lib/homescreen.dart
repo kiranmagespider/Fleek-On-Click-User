@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_barber/base/basewidget.dart';
 import 'package:flutter_app_barber/common/sliderightroute.dart';
 import 'package:flutter_app_barber/tabs/booktab.dart';
 import 'package:flutter_app_barber/tabs/hometab.dart';
@@ -45,7 +46,8 @@ class _HomeState extends State<Home> {
   }
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return BaseWidget(builder: (context,sizingInformation){
+      return MaterialApp(
       theme: ThemeData(primaryColor: Colors.orange[800]),
       home: Scaffold(
         appBar: AppBar(
@@ -132,6 +134,7 @@ class _HomeState extends State<Home> {
         )
         ),
     );
+    });
   }
 }
 

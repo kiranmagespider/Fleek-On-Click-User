@@ -64,7 +64,7 @@ class _HomeState extends State<Home> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Container(
-                        margin: EdgeInsets.only(top: 100, left: 20),
+                        margin: EdgeInsets.only(top: 50, left: 20),
                         child: Text(
                           'OTP',
                           style: TextStyle(
@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                         ),
                       ),
                       Container(
-                        margin: EdgeInsets.only(top: 100, left: 20, right: 20),
+                        margin: EdgeInsets.only(top: 80, left: 20, right: 20),
                         // padding: EdgeInsets.symmetric(horizontal: 20.0),
                         child: PinView(
                             count: 6, // count of the fields, excluding dashes
@@ -116,7 +116,7 @@ class _HomeState extends State<Home> {
                       Container(
                         alignment: Alignment.center,
                         padding: EdgeInsets.all(20),
-                        margin: EdgeInsets.only(top: 200, left: 20, right: 20),
+                        margin: EdgeInsets.only(top: 100, left: 20, right: 20),
                         child: Text(
                           'Resend',
                           style: TextStyle(
@@ -130,7 +130,7 @@ class _HomeState extends State<Home> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
                           Container(
-                              // margin: EdgeInsets.only(top: 40),
+                              margin: EdgeInsets.only(top: 40),
                               height: 50,
                               width: 140,
                               child: RaisedButton(

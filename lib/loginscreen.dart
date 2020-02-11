@@ -1,5 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_app_barber/otpscreen.dart';
+
 
 class LoginScreen extends StatelessWidget {
   @override
